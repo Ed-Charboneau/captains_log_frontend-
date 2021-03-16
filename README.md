@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+## Project 4: Captins_Log App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a project utilizing React, Model View Controllers and GitHub collaboration. I created an app that logs maintiance items or the like and is deployed using Surge and Heroku.
 
-## Available Scripts
+### Project Links
+[Here is the project repository.](https://github.com/countryraised/JEVpardy)
 
-In the project directory, you can run:
+[Here is the published project.](jevpardy.surge.sh)
 
-### `npm start`
+#### Entity Relationship Diagram
+![ERD](./images/ERD.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Current Features
+* User homepage
+  * Welcoming the user
+  * Shows Item/s
+  * Shows item documents
+* User document page
+  * Create a new item
+  * Create a new document
+  * Delete items
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Planned Features
+* Enhanced logging
+* Document sign in/password
+* Encryption
+* Extra CSS styling and pop ups
 
-### `npm test`
+### Technology Used
+* Utilizing React architecture
+  * Router
+  * Links
+  * Redirect
+* Axios
+* Surge
+* Utilizing MVC architecture
+  * Routes
+  * Controllers
+  * Views
+* SQL database
+* JOIN tables
+* Sequlize
+* Express/EJS
+* Heroku
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Example Code
 
-### `npm run build`
+### Issues and Resolutions
+I was on my own for this project and sturggled with a lot of the front and backend parts to make a complete working app. I had a lot of help from the instructional team and classmates to help me push though all my issues and link everything up.  While I decided to work on the main branch I still faced some issues with no enough commits or not using the correct commands in Github.  I can use some extra Github experience under my belt to feel more comfortable.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Deployment using Surge was painless and Heroku was definately not as user friendly as I would like.  I believe with more time my comfort level would improve and some of these issue would be eliminated.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Additional Comments
+I seem to enjoy spending more time to style or think of craative backgrounds to utilize for my projects.  I feel I am stronger on the design aspect than the actual coding portion of the projects and it tends to show.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### User Stories
+##### Story 1
+As an auto and fabrication shop I want to document maintiance and performance installs.
+##### Story 2
+As a homeowner I can keep track of house items that I work on.
+##### Story 3
+My wife wants document garden plants and locations.
+##### Story 4
+My kids want to keep track of hommework projects.
+##### Story 5
+I want to document maintiance on my lawn mower and other household items.

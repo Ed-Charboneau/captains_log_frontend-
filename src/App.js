@@ -1,25 +1,44 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import axios from 'axios';
+import { Route, Link, Redirect } from 'react-router-dom';
+
+import HomePage from './components/HomePage';
+import Item from './components/Item';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      log: [],
+      apiDataLoaded: false,
+      num:null
+    }
+  }
+  
+  getLogs = async () => {
+    const response = await axios.get('http://localhost:3001/logs');
+    this.setState({
+      cities: response.data,
+    })
+  }
+
+  render() {
+    return (
+      <div className="App">   
+
+        
+        <main>
+          <Route exact path="/" render = {() => (<HomePage />)}/>
+          <Route exact path="/Item" render = {() => (<Item />)}/>
+
+        </main>
+        
+      </div>
+    );
+  } 
 }
 
 export default App;

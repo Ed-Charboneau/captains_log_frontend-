@@ -1,0 +1,69 @@
+.Title {
+    position: absolute;
+    left: 12%;
+    top: -2vw;
+    color: rgb(164, 41, 27);
+    font-size: 4.5vw;
+    text-shadow: 3px 3px black;
+}
+
+.comments {
+    position: absolute;
+    left: 1%;
+    top: 5vw;
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.start {
+    border-radius: 1.5vw;
+    font-size: 3vw;
+    left: 25%;
+    top: 15vw;
+    position: absolute;
+    color: rgb(164, 41, 27);
+    background-color:  rgb(200, 188, 156);
+    text-shadow: 2px 2px black;
+}
+
+.homepage {
+    background-size: 100vw;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(65, 64, 64);
+    background-repeat: no-repeat;
+    background-image: url(https://cdn3.movieweb.com/i/article/AwyatA1xklCl8BDtRR6mfEouCNuCH6/1200:100/William-Shatner-Kirk-Captains-Log-Star-Trek-Coronavirus.jpg);
+}
+
+.container {
+    position: absolute;
+    right: 1%;
+    width: 35vw;
+    height: 22vw;
+    background-color: lightgray;
+    border: solid black;
+    border-radius: 30vw;
+}
+
+.medium {
+    position: absolute;
+    right: 37%;
+    top: 30%;
+    width: 5vw;
+    height: 5vw;
+    background-color: lightgray;
+    border: solid black;
+    border-radius: 30vw;
+}
+
+.small {
+    position: absolute;
+    right: 44%;
+    top: 34%;
+    width: 3vw;
+    height: 3vw;
+    background-color: lightgray;
+    border: solid black;
+    border-radius: 30vw;
+}

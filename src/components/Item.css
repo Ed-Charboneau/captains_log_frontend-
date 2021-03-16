@@ -1,0 +1,28 @@
+
+.title2 {
+    position: absolute;
+    left: 1%;
+    top: -3vw;
+    color: rgb(253, 237, 80);
+    font-size: 6.5vw;
+}
+
+.Item {
+    position: absolute;
+    background-size: 50vw;
+    height: 100vh;
+    width: 100vw;
+    background-position: 51vw 0;
+    background-color: rgb(37, 47, 117);
+    background-repeat: no-repeat;
+    background-image: url(https://d32ptomnhiuevv.cloudfront.net/en-gb/sites/default/files/product_jackets/Haynes-H4941-cover.jpg);
+}
+
+.container2 {
+    position: absolute;
+    top: 15vw;
+    left: 1.5vw;
+    width: 49vw;
+    height: 47vw;
+    background-color: rgb(136, 167, 215);
+}
