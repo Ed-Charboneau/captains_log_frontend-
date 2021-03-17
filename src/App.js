@@ -17,28 +17,29 @@ class App extends Component {
       num:null
     }
   }
-  
-  getLogs = async () => {
+
+  componentDidMount =  async () => {
     const response = await axios.get('http://localhost:3001/logs');
+    console.log(response);
     this.setState({
-      cities: response.data,
+      logs: response.data,
     })
   }
 
   render() {
     return (
-      <div className="App">   
+      <div className="App">
 
-        
+
         <main>
           <Route exact path="/" render = {() => (<HomePage />)}/>
           <Route exact path="/Item" render = {() => (<Item />)}/>
 
         </main>
-        
+
       </div>
     );
-  } 
+  }
 }
 
 export default App;
